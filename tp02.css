@@ -1,0 +1,70 @@
+/* Styles pour la liste TODO (TP02-CSS.HTML) */
+
+
+/* Style général pour le conteneur div */
+
+div {
+    width: 250px;
+    background-color: navy;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style pour le titre h1 */
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+
+/* Enlever les styles par défaut de la liste */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Style pour chaque élément de la liste */
+
+li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+/* Style pour le dernier élément de la liste pour enlever la marge du bas */
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Effet de survol - montre une main (l'émoji)*/
+
+li:hover {
+    cursor: pointer;
+    /* Change le curseur en main */
+    background-color: #f0f0f0;
+    /* Léger changement de couleur au survol */
+}
+
+
+/* Ajoute une icône de main au survol (simulé avec un emoji) */
+
+li:hover::after {
+    content: " 👆";
+    display: inline-block;
+    margin-left: 5px;
+}

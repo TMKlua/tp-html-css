@@ -1,0 +1,122 @@
+/* Styles pour le layout de La Fiorentina */
+
+
+/* Reset CSS de base */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style général de la page */
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+
+/* Container principal */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #EFECCA;
+    /* Fond d'écran demandé */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* En-tête */
+
+header {
+    margin-bottom: 20px;
+}
+
+
+/* Titre h1 */
+
+h1 {
+    color: #C03000;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+
+/* Titre h2 */
+
+h2 {
+    color: #4B85C1;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+/* Navigation */
+
+nav {
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 2px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    background-color: #C03000;
+    color: white;
+    border: 1px solid #660000;
+    text-align: center;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a.active {
+    background-color: #009900;
+}
+
+
+/* Titre h3 */
+
+h3 {
+    color: #C03000;
+    font-size: 16px;
+    margin: 15px 0 5px 0;
+}
+
+
+/* Sections */
+
+section {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+/* Section contact */
+
+.contact a {
+    color: #0000FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
