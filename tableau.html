@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TP 03 - Tableau des pays les plus polluants</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        table {
+            width: 75%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        td:first-child {
+            width: 35%;
+            text-align: left;
+        }
+        
+        img {
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        
+        .flag-cell {
+            padding-left: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pays les plus polluants de la planète (CO₂)</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pays</th>
+                <th>CO<sub>2</sub><br>(en milliards de tonnes)</th>
+                <th>CO<sub>2</sub><br>(en %)</th>
+                <th>en tonnes<br>par hab.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="flag-cell"><img src="https://flagsapi.com/CN/flat/64.png" alt="Drapeau de la Chine"> Chine</td>
+                <td>9.26</td>
+                <td>28.2</td>
+                <td>6.68</td>
+            </tr>
+            <tr>
+                <td class="flag-cell"><img src="https://flagsapi.com/US/flat/64.png" alt="Drapeau des États-Unis"> États-Unis</td>
+                <td>4.76</td>
+                <td>14.5</td>
+                <td>14.61</td>
+            </tr>
+            <tr>
+                <td class="flag-cell"><img src="https://flagsapi.com/IN/flat/64.png" alt="Drapeau de l'Inde"> Inde</td>
+                <td>2.16</td>
+                <td>6.6</td>
+                <td>1.61</td>
+            </tr>
+            <tr>
+                <td class="flag-cell"><img src="https://flagsapi.com/RU/flat/64.png" alt="Drapeau de la Russie"> Russie</td>
+                <td>1.54</td>
+                <td>4.7</td>
+                <td>10.64</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
